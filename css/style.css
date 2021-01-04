@@ -1,4 +1,69 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+.header {
+    background-image: url(../img/top-banner.png);
+    background-repeat: no-repeat;
+}
+h1 {
+    font-size: 50px;
+}
+p {
+    color: #696969;
+}
+img {
+    width: 100%;
+}
+.highlighter {
+    color: orange;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.cta-btn {
+    text-decoration: none;
+    background: linear-gradient(45deg, #477be0, #812ad7);
+    color: white;
+    padding: 10px 40px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+.about {
+    background: url(../img/about-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.about h2 {
+    font-size: 40px;
+}
+.expriences {
+    background: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.expriences div {
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
+#exp-1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #822ad7, #477ce1);
+    border-image-slice: 1;
+}
+#exp-2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #ff1470, #ffc81d);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
